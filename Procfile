@@ -1,1 +1,1 @@
-web: node server.js
+web: pm2 start app.js && pm2 logs allows
