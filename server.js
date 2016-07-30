@@ -23,5 +23,5 @@ function process_request(req, res) {
 }
 
 var s = http.createServer(process_request);
-s.listen(8080);
+s.listen(process.env.PORT || 8080);
 
